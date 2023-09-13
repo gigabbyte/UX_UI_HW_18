@@ -217,6 +217,11 @@ h1 span:hover {
     transition: all 0.2s ease-in;
 }
 
+.buttons a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .buttons button:hover {
     cursor: pointer;
     font-family: 'Instrument Serif', serif;
