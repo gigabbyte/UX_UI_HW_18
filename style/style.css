@@ -83,6 +83,18 @@ nav ul li a:hover {
     width: 50%;
 }
 
+.headerBody {
+    margin-top: 1em;
+    font-size: 2rem;
+    width: 50%;
+}
+
+.headerText {
+    margin-top: 0 auto;
+    font-size: 2rem;
+    width: 50%;
+}
+
 .headerText h1 {
     font-size: 100px;
     margin-top: 20px;
@@ -104,11 +116,11 @@ nav ul li a:hover {
 h1 span:hover {
     font-style: italic;
     font-weight: 500;
-    /*animation: typeChange ns infinite; put h1 in different div so that it doesn't make body text jump around when animating*/
+    /* animation: typeChange 0.5s infinite; */
 }
 
-/*
-@keyframes typeChange {
+
+/* @keyframes typeChange {
     from {
         font-family:'Courier New', Courier, monospace;
     }
@@ -129,9 +141,9 @@ h1 span:hover {
         font-family: 'Instrument Serif', serif;
     }
 
-}*/
+} */
 
-.headerText p {
+.headerBody p {
     font-weight: lighter;
     font-size: 30pt;
     font-family: 'Instrument Serif', serif;
@@ -143,18 +155,18 @@ h1 span:hover {
     text-decoration: none;
 }
 
-.headerText p span a {
+.headerBody p span a {
     color: #436ec3;
     font-family: 'Instrument Serif', serif;
     text-decoration: none;
 }
 
-.headerText p span a:hover {
+.headerBody p span a:hover {
     text-decoration: underline;
     cursor: pointer;
 }
 
-.headerText h4 {
+.headerBody h4 {
     font-size: 24pt;
     font-family: 'Instrument Serif', serif;
     font-weight: 400;
@@ -200,9 +212,8 @@ h1 span:hover {
 .mySkills {
     width: 100%;
     background-color:#436ec3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    padding: 2rem;
 }
 
 .mySkills h1 {
@@ -211,6 +222,7 @@ h1 span:hover {
     font-size: 80px;
     font-weight: 100;
     color: #fff;
+    padding: 30px 0;
 }
 .flexSkills h3 {
     color: #fff;
